@@ -1,0 +1,75 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egi's Personal Blog</title>
+    <link rel="stylesheet" href="{% static 'css/homestyle.css' %}">
+</head>
+
+
+
+<div class="header">
+    <div class="bar">
+        <div class="egi">EGI NS</div>
+        <a href="{% url 'home' %}" id="home">HOME</a>
+        <a href="/blog/" id="blog">BLOG</a>
+    </div>
+</div>
+
+<body>
+
+    <div class="opening cf">
+        <img src="../../static/image/opening.jpg" alt="">
+        <h2>Hello World!</h2>
+        <p>Halo semua! Selamat datang. Perkenalkan, namaku Egi Nawwar Sukma, bisa dipanggil Egi. Aku merupakan mahasiswa tahun pertama jurusan Informatika di Telkom University. Aku adalah orang yang introvert, pemalu, tapi suka mengeksplor hal yang baru. Ini merupakan blog pertama yang pernah aku buat. Disini aku bisa berbagi tentang tips-tips bermanfaat atau kisah-kisah hidup yang telah kulewati. Hope you enjoyed it! </p>
+    </div>
+
+    <div class="review">
+
+        <div class="blog1">
+            <img src="{{blog1.gambar.url}}" />
+            <h2>{{blog1.judul}}</h2>
+            <h5>By : {{blog1.penulis}} <br>
+                <span id='waktu'>{{blog1.waktu}}</span></h5>
+            <p>{{blog1.ringkasan}}</p><br><br>
+            <a href="/blog/4"><p><span id="lanjut">Selengkapnya..</span></p></a><br>
+        </div>
+    
+        <div class="blog2">
+            <img src="{{blog2.gambar.url}}" />
+            <h2>{{blog2.judul}}</h2>
+            <h5>By : {{blog2.penulis}} <br>
+                <span id='waktu'>{{blog2.waktu}}</span></h5>
+            <p>{{blog2.ringkasan}}</p><br><br>
+            <a href="/blog/5"><p><span id="lanjut">Selengkapnya..</span></p></a><br>
+        </div>
+    
+        <div class="blog3">
+            <img src="{{blog3.gambar.url}}" />
+            <h2>{{blog3.judul}}</h2>
+            <h5>By : {{blog3.penulis}} <br>
+                <span id='waktu'>{{blog3.waktu}}</span></h5>
+            <p>{{blog3.ringkasan}}</p><br><br><br>
+            <a href="/blog/6"><p><span id="lanjut">Selengkapnya..</span></p></a><br>
+        </div>
+
+        <a href="/blog/"><div class="lebihbanyak">
+            VIEW MORE
+        </div></a>
+
+    </div>
+
+    <div class="contact">
+        <p>GET IN TOUCH WITH ME</p>
+        <a href="https://www.instagram.com/egi_ns27" target="_blank"><img src="../../static/image/ig.png" alt="Instagram"></a>
+        <a href="https://www.linkedin.com/in/eginawwarsukma/" target="_blank"><img src="../../static/image/linkedin.png" alt="Linkedin"></a>
+        <div class="unsplash">IMAGES : <a href="https://www.unsplash.com" target="_blank">UNSPLASH.COM</a></div>
+    </div>
+
+</body>
+</html>
+
