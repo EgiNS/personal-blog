@@ -1,0 +1,143 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.header, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.bar {
+    height: 50px;
+    background-color: #29445d;
+    text-align: end;
+    line-height: 50px;
+    border-bottom: 2px solid gray;
+}
+
+.bar .egi {
+    text-align: left;
+    font-size: 16px;
+    color: #ebf2f8;
+    position: relative;
+    margin-left: 40px;
+}
+
+.bar a {
+    font-size: 16px;
+    color: #ebf2f8;
+    position:relative;
+    top: -50px;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+.bar a:hover {
+    color: #decb91;
+}
+
+.artikel {
+    padding: 3% 15%;
+    text-align: justify;
+    font-size: 19px;
+}
+
+.artikel p {
+    word-spacing: 5px;
+    line-height: 24px;
+}
+
+.artikel img {
+    margin-top: -30px;
+    margin-bottom: 20px;
+    width: 70%;
+    margin-left: 16%;
+    margin-right: auto;
+}
+
+.artikel h2, .artikel h2, .artikel h2 {
+    font-size: 25px;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+
+.artikel h5, .artikel h5, .artikel h5 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0px 7px 0px;
+}
+
+.artikel h5 #waktu {
+    font-size: 15px;
+    font-weight: lighter;
+}
+
+.contact {
+    margin-top: -20px;
+    background-color:#29445d;
+    height: 200px;
+    text-align: center;
+    color:#ebf2f8;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.contact img {
+    height: 40px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.unsplash {
+    font-size: 13px;
+    color:#ebf2f8;
+    margin-top: 20px;
+}
+
+.unsplash a {
+    text-decoration: none;
+    color:#ebf2f8;
+}

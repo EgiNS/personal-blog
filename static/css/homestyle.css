@@ -1,0 +1,241 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.bar {
+    height: 50px;
+    background-color: #29445d;
+    text-align: end;
+    line-height: 50px;
+}
+
+.bar .egi {
+    text-align: left;
+    font-size: 16px;
+    color: #ebf2f8;
+    position: relative;
+    margin-left: 40px;
+}
+
+.bar a {
+    font-size: 16px;
+    color: #ebf2f8;
+    position:relative;
+    top: -70px;
+    margin-right: 40px;
+}
+
+.bar a:hover {
+    color: #decb91;
+}
+
+.header, body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header {
+    height:640px;
+    margin: auto;
+    margin-bottom: 50px;
+    background-image: url(../image/hero.jpg);
+    background-size: cover;
+    background-position: 0 -100px ;
+    text-align: center;
+    font-size: 75px;
+    color: #decb91;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opening {
+    margin: 120px 50px;
+    text-align:justify;
+    color: rgba(0, 0, 0, 0.575);
+}
+
+.opening h2 {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 7%;
+}
+
+.opening p {
+    word-spacing: 5px;
+    line-height: 20px;
+}
+
+.opening img {
+    width: 50%;
+    height: 52%;
+    float: left;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.review {
+    background-color:#ebf2f8;
+    padding: 100px 20px 100px 20px;
+}
+
+.blog1, .blog2, .blog3 {
+    margin: auto 50px;
+    padding: 10px;
+    width: 300px;
+    height: 450px;
+    display: inline-block;
+    border: 2px solid rgba(0, 0, 0, 0.452);
+    background-color: white;
+    color: rgba(0, 0, 0, 0.575);
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    box-sizing: border-box;
+}
+
+.blog1 h2, .blog2 h2, .blog3 h2 {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px 0px;
+}
+
+.blog1 h5, .blog2 h5, .blog3 h5 {
+    font-size: 15px;
+    font-weight: bolder;
+    margin: 20px 0px 7px 0px;
+}
+
+#waktu {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.blog1:hover, .blog2:hover, .blog3:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.308);
+}
+
+.blog1 img, .blog2 img, .blog3 img{
+    width: 100%;
+    height: 150px;
+
+}
+
+.review #lanjut {
+    width: 1000px;
+    margin-left:180px;
+    color:#b3522b;
+}
+
+.review #lanjut:hover {
+    color: #decb91;
+}
+
+.review .lebihbanyak {
+    display: block;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin: auto;
+    margin-top: 60px;
+    background-color:#b3522b;
+    text-decoration: none;
+}
+
+a .lebihbanyak {
+    text-decoration: none;
+    color:azure;
+}
+
+.lebihbanyak:hover {
+    background-color: #3f5f78;
+    
+}
+
+body a {
+    text-decoration: none;
+}
+
+.contact {
+    margin-top: -20px;
+    background-color:#29445d;
+    height: 200px;
+    text-align: center;
+    color:#ebf2f8;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.contact img {
+    height: 40px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+.unsplash {
+    font-size: 13px;
+    color:#ebf2f8;
+    margin-top: 20px;
+}
+
+.unsplash a {
+    text-decoration: none;
+    color:#ebf2f8;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
